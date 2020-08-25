@@ -1,0 +1,21 @@
+main: network.starplum.Modules
+name: Modules
+version: unstable-softdepend-0.1
+description: §8§l* §7Staff mode made for §aPedestriaMC
+author: [iDevMC, imDeprecated]
+load: POSTWORLD
+prefix: Komet-Modules
+api-version: 1.16
+website: https://github.com/imDeprecated/Modules
+softdepend: [PlaceholderAPI]
+
+commands:
+   modules:
+      description: 'Toggle staff mode'
+      usage: /<command>
+      aliases: [staffmode, module, sm]
+
+permissions:
+   pedestria.modules:
+      description: 'Toggle staff mode'
+      default: false
